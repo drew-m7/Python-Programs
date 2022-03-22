@@ -4,15 +4,15 @@
 # when a num is multiple of both, print fizzbuzz
 
 if __name__ == '__main__':
-    print "fizzbuzz time!"
+    print("fizzbuzz time!")
     for num in range(1, 101):
         if(num % 3 == 0):
             if(num % 5 == 0):
-                print "fizzbuzz"
+                print ("fizzbuzz")
             else:
-                print "fizz"
+                print ("fizz")
         elif(num % 5 == 0):
-            print "buzz"
+            print ("buzz")
         else:
-            print num
+            print( num)
             
