@@ -1,12 +1,12 @@
 from tkinter import *
 import random
 
-GAME_WIDTH = 700
-GAME_HEIGHT = 700
-SPEED = 100
+GAME_WIDTH = 800
+GAME_HEIGHT = 800
+SPEED = 75
 SPACE_SIZE = 50
-BODY_PARTS = 3
-SNAKE_COLOR = "#00FF00"
+BODY_PARTS = 5
+SNAKE_COLOR = "#00FFFF"
 FOOD_COLOR = "#FF0000"
 BACKGROUND_COLOR = "#000000"
 
@@ -126,7 +126,7 @@ def game_over():
 
 
 window = Tk()
-window.title("Snake game")
+window.title("GROW THE SNAKE")
 window.resizable(False, False)
 
 score = 0
