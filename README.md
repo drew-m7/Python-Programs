@@ -1,2 +1,1 @@
-# Random-stuff
-Just some simple programming practice.
+Python Programming Practice
